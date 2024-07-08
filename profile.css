@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: navy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+.container h1{
+    color: blue;
+    margin: 4px;
+    margin-left: auto;
+    font-size: 40px;
+}
+.container p{
+    color: bisque;
+    font-size: 18px;
+}
+.nav {
+    background-color: rgba(0, 0, 255, 0.712);
+    width: 35%;
+    border-radius: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+    padding: 30px; /* Padding for inner spacing */
+    margin: 20px auto; /* Centering the navbar horizontially with margin */
+}
+
+.nav a {
+    color: blanchedalmond;
+    text-decoration: underline;
+    padding: 10px 15px; /* Padding inside each link */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 15px;
+}
+
+button {
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    font-size: medium;
+}
